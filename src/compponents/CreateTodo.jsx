@@ -27,7 +27,7 @@ export function CreateTodo(){
                 }
             }).then(async(data)=>{
             let json  = await data.json()
-            alert('data added')
+            alert('data added check db')
             })
         }}>Add todo</button>
 
